@@ -162,7 +162,7 @@ class ApproveControl extends BaseController
         // print_r($tracking);exit;
 
 
-        $path = base_url() . "/uploads/";
+        $path = base_url() . "/public/uploads/";
         $documents = $this->model->getClientProfile($tracking);
         $identity_scan = $documents[0]['identity_scan'];
         $auth_person_photo = $documents[0]['auth_person_photo'];

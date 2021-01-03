@@ -63,7 +63,7 @@ class ClientControl extends BaseController
         fclose($file);
         exit;
         $message = "Record Exported Successfully!";
-        return redirect()->to(base_url('ClientControl'))->with('msg', $message);
+        return redirect()->to(site_url('ClientControl'))->with('msg', $message);
     }
 
     // public function check_user($user = null)
@@ -416,7 +416,7 @@ class ClientControl extends BaseController
         // to delete file
         //------------------------------------------------------
 
-        $fileLocation = base_url() . "/uploads/";
+        $fileLocation = base_url() . "/public/uploads/";
 
         // print_r($fileLocation);exit;
         // unlink($fileLocation);
