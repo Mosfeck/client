@@ -117,7 +117,7 @@ class ClientControl extends BaseController
             // $sess_id['uid'] = $_SESSION['uid'];
             // $sess_id['username'] = $_SESSION['username'];
 
-            return redirect()->to(base_url('ClientControl/getUser'));
+            return redirect()->to(site_url('ClientControl/getUser'));
         } else {
             $this->session->setFlashdata('msg', '<div class="alert alert-danger text-center">Wrong Tracking ID or Password!</div>');
             return view('clients/signin_view.php');
