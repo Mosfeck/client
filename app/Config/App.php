@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/Client/Client-03-January-2020-4.0.3-git/client/';
+	public $baseURL = 'http://localhost/Client/Client-04-January-2020-4.0.3-git/client/';
 
 	/*
 	|--------------------------------------------------------------------------
