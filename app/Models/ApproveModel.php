@@ -113,7 +113,7 @@ class ApproveModel extends Model
     {
 
         $query = $this->db->query('SELECT id, typeName FROM 
-            type_tbl GROUP BY typeName order by typeName');
+            type_tbl order by typeName');
         
 
         foreach ($query->getResult() as $row) {
@@ -129,7 +129,7 @@ class ApproveModel extends Model
     {
 
         $query = $this->db->query('SELECT id, package FROM 
-            package_tbl GROUP BY package order by package');
+            package_tbl order by package');
         
 
         foreach ($query->getResult() as $row) {

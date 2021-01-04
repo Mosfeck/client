@@ -363,7 +363,8 @@ class ClientControl extends BaseController
         $id = $this->request->getVar('client_id');
 
         // target folder
-        $path = './uploads';
+        // $path = './uploads';
+        $path = 'public/uploads';
 
         // assign file for move
         $identity_scan = $this->request->getFile('identity_scan');
