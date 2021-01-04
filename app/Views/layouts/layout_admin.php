@@ -7,15 +7,15 @@
 	<title>Attendance in CodeIgniter 4</title>
 
 	<!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
-	<link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css">
-	<link href="<?php echo base_url('assets/css/jquery.dataTables.min.css') ?>" rel="stylesheet" type="text/css">
-	<link href="<?php echo base_url('assets/css/main.css') ?>" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url('public/assets/css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url('public/assets/css/jquery.dataTables.min.css') ?>" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url('public/assets/css/main.css') ?>" rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" type="text/css" />
 
 
-	<script src="<?php echo base_url('assets/js/jquery.min.js') ?>" type="text/javascript"></script>
-	<script src="<?php echo base_url('assets/js/jquery.dataTables.min.js') ?>" type="text/javascript"></script>
+	<script src="<?php echo base_url('public/assets/js/jquery.min.js') ?>" type="text/javascript"></script>
+	<script src="<?php echo base_url('public/assets/js/jquery.dataTables.min.js') ?>" type="text/javascript"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>

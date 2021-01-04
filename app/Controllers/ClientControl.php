@@ -186,7 +186,7 @@ class ClientControl extends BaseController
     {
 
         // target folder
-        $path = './uploads';
+        $path = 'public/uploads';
 
         // assign file for move
         $identity_scan = $this->request->getFile('identity_scan');
