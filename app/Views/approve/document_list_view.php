@@ -95,10 +95,10 @@
                     <label for="" class="text-info"><?= $row['identity_scan'] ?></label>
                     
                         <?php if (endsWith($row['identity_scan'], ".jpg")) : ?>
-                            <img src="<?= base_url() ?>/uploads/<?= $row['identity_scan'] ?>" width="150px" height="auto" id="blah" alt="identity_scan">
+                            <img src="<?= base_url() ?>public/uploads/<?= $row['identity_scan'] ?>" width="150px" height="auto" id="blah" alt="identity_scan">
                         <?php else : ?>
                             <?php if ($row['identity_scan']) : ?>
-                            <embed src="<?= base_url() ?>/uploads/<?= $row['identity_scan'] ?>" type="application/pdf" width="100%" height="600px" />
+                            <embed src="<?= base_url() ?>public/uploads/<?= $row['identity_scan'] ?>" type="application/pdf" width="100%" height="600px" />
                         <?php endif; ?>
                     <?php endif; ?>
                 </div>
@@ -108,9 +108,9 @@
                     <label for="" class="text-info"><?= $row['auth_person_photo'] ?></label>
                     <?php if ($row['auth_person_photo']) : ?>
                         <?php if (endsWith($row['auth_person_photo'], ".jpg")) : ?>
-                            <img src="<?= base_url() ?>/uploads/<?= $row['auth_person_photo'] ?>" width="150px" height="auto" id="blah" alt="auth_person_photo">
+                            <img src="<?= base_url() ?>public/uploads/<?= $row['auth_person_photo'] ?>" width="150px" height="auto" id="blah" alt="auth_person_photo">
                         <?php else : ?>
-                            <embed src="<?= base_url() ?>/uploads/<?= $row['auth_person_photo'] ?>" type="application/pdf" width="100%" height="600px" />
+                            <embed src="<?= base_url() ?>public/uploads/<?= $row['auth_person_photo'] ?>" type="application/pdf" width="100%" height="600px" />
                         <?php endif; ?>
                     <?php endif; ?>
                 </div>
@@ -120,9 +120,9 @@
                     <label for="" class="text-info"><?= $row['trade_license'] ?></label>
                     <?php if ($row['trade_license']) : ?>
                         <?php if (endsWith($row['trade_license'], ".jpg")) : ?>
-                            <img src="<?= base_url() ?>/uploads/<?= $row['trade_license'] ?>" width="150px" height="auto" id="blah" alt="trade_license">
+                            <img src="<?= base_url() ?>public/uploads/<?= $row['trade_license'] ?>" width="150px" height="auto" id="blah" alt="trade_license">
                         <?php else : ?>
-                            <embed src="<?= base_url() ?>/uploads/<?= $row['trade_license'] ?>" type="application/pdf" width="100%" height="600px" />
+                            <embed src="<?= base_url() ?>public/uploads/<?= $row['trade_license'] ?>" type="application/pdf" width="100%" height="600px" />
                         <?php endif; ?>
                     <?php endif; ?>
                 </div>

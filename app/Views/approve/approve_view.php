@@ -436,7 +436,7 @@
             var tracking_id = $("#tracking").val();
             console.log(tracking_id);
             $.ajax({
-                url: "<?php echo base_url('ApproveControl/fileChecker'); ?>/" + tracking_id,
+                url: "<?php echo site_url('ApproveControl/fileChecker'); ?>/" + tracking_id,
                 method: "GET",
                 success: function(res) {
                     console.log(res);
@@ -461,7 +461,7 @@
             var tracking_id = $("#tracking").val();
             console.log(tracking_id);
             $.ajax({
-                url: "<?php echo base_url('ApproveControl/cancel'); ?>/" + tracking_id,
+                url: "<?php echo site_url('ApproveControl/cancel'); ?>/" + tracking_id,
                 method: "POST",
                 success: function(data) {
                     console.log(data);
@@ -491,7 +491,7 @@
             var sip_no = $("#sip_no").val();
             console.log(sip_no);
             $.ajax({
-                url: "<?php echo base_url('ApproveControl/sip_checker'); ?>/" + sip_no,
+                url: "<?php echo site_url('ApproveControl/sip_checker'); ?>/" + sip_no,
                 type: "GET",
                 dataType: "JSON",
                 success: function(res) {

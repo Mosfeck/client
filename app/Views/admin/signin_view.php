@@ -28,7 +28,7 @@
                                     ?>
 
 
-                                    <form action="<?php echo base_url('AdminControl/auth_admin'); ?>" method="post" id="client_login">
+                                    <form action="<?php echo site_url('AdminControl/auth_admin'); ?>" method="post" id="client_login">
 
                                         <div class="form-group">
                                             <!-- <label for="admin_name">Tracking id</label> -->
